@@ -13,7 +13,7 @@ import io
 
 
 
-st.subheader('Desempeño del grupo (2025.02)')
+st.subheader('Desempeño del grupo (2026.01)')
 
 st.write('El texto que encabeza cada gráfico, corresponde al código del estudiante, eliminando el encabezado de "30000" pues es igual para todos.')
 
@@ -24,7 +24,7 @@ st.write('La letra que lo acompaña, corresponde a la inicial del primer nombre 
 
 # read the data from the corresponding file 
 
-df = pd.read_excel('df_total_e5.xlsx')
+df = pd.read_excel('df_total_e1.xlsx')
 
 # Convert values in the column 'Nivel' to numeric, coercing errors to NaN
 df['Nivel'] = pd.to_numeric(df['Nivel'], errors='coerce') 

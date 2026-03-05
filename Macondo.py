@@ -23,7 +23,7 @@ import os
 
 
 st.set_page_config(
-    page_title="Habitar Macondo", layout='wide',
+    page_title="Itinerarios de Melquiades", layout='wide',
     # page_icon="👋",  
     initial_sidebar_state='expanded'
 )
@@ -37,22 +37,22 @@ st.set_page_config(
 # st.write(path)
 
 
-st.title("Habitar Macondo 2.0")
+st.title("Habitar Macondo 3.0")
 
 
-st.markdown(""" A través de esta aplicación podrás conocer el desempeño de 46 Macondianos en su misión de prepararse para un nuevo huracán, usando dos perspectivas: el desempeño individual y el desempeño grupal.""")
+st.markdown(""" A través de esta aplicación podrás conocer el desempeño de 28 personas, en su itinerario tras las huellas de Melquiades en el primer semestre de 2026-01, usando dos perspectivas: el desempeño individual y el desempeño grupal.""")
 
 
 
-st.subheader("Tablero MIRO")
-st.markdown("En este tablero se recopilan ejercicios relizados a lo lago del curso.")
+# st.subheader("Tablero MIRO")
+# st.markdown("En este tablero se recopilan ejercicios relizados a lo lago del curso.")
 
-# Create a link to a homepage
-st.markdown("[Ir al tablero](https://miro.com/welcomeonboard/cDlFTHkwWDRMME80RnpQUnF6NUFHWmRuRGNWcm56aHJLblE5YUN1UExyb2t2ODdJSGMxQitUMCs5R2l0c1lyd1lYNTJWM1RrbGJGbnVMTzZPSmg0QThaSXd5ejRyazNiSEVzRW5XSGx6NzZua0FqcE9FRVRTdk9DZE81YWQ2UDJhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=290650707684)")
+# # Create a link to a homepage
+# st.markdown("[Ir al tablero](https://miro.com/welcomeonboard/cDlFTHkwWDRMME80RnpQUnF6NUFHWmRuRGNWcm56aHJLblE5YUN1UExyb2t2ODdJSGMxQitUMCs5R2l0c1lyd1lYNTJWM1RrbGJGbnVMTzZPSmg0QThaSXd5ejRyazNiSEVzRW5XSGx6NzZua0FqcE9FRVRTdk9DZE81YWQ2UDJhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=290650707684)")
 
 
-with st.sidebar.container(height=470, border=0):
-    st.write('Donde el Magdalena deja atrás el macizo colombiano y la alta montaña, para lanzarse hacia la llanura costera del caribe y posteriormente al mar, Macondo se prepara para un nuevo "Huracán" en Honda')
+# with st.sidebar.container(height=470, border=0):
+#     st.write('Donde el Magdalena deja atrás el macizo colombiano y la alta montaña, para lanzarse hacia la llanura costera del caribe y posteriormente al mar, Macondo se prepara para un nuevo "Huracán" en Honda')
 
 
 #CONTENIDO PRINCIPAL
