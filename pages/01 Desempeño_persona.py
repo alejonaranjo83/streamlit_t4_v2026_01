@@ -50,24 +50,24 @@ def assign_colors_to_ranges(values):
         (4.99, 5),
         (-3, -1)
     ]
-    # colors = [
-    #     '#ededed',
-    #     '#E76F51',
-    #     '#F4A261',
-    #     '#E9C46A',
-    #     '#2A9D8F',
-    #     '#264653',
-    #     '#AAAAAA',
-    # ]
     colors = [
         '#ededed',
-        '#264653',
-        '#2A9D8F',
-        '#E9C46A',
-        '#F4A261',
         '#E76F51',
+        '#F4A261',
+        '#E9C46A',
+        '#2A9D8F',
+        '#264653',
         '#AAAAAA',
     ]
+    # colors = [
+    #     '#ededed',
+    #     '#264653',
+    #     '#2A9D8F',
+    #     '#E9C46A',
+    #     '#F4A261',
+    #     '#E76F51',
+    #     '#AAAAAA',
+    # ]
 
     color_dict = {}
     # for value in values:
@@ -296,9 +296,9 @@ def plot_student_performance(df, student_name):
 
 
     # Texts to reference the nivel of the bars
-    plt.text(np.pi/3.9, 2.5, '3', fontsize=7, color='#444444', ha='right', va='bottom')
-    plt.text(np.pi/3.9, 3.5, '4', fontsize=7, color='#444444', ha='right', va='bottom')
-    plt.text(np.pi/3.9, 4.4, '5', fontsize=7, color='#444444', ha='right', va='bottom')
+    plt.text(np.pi/3.9, 2.5, 'I', fontsize=7, color='#444444', ha='right', va='bottom')
+    plt.text(np.pi/3.9, 3.5, 'CP', fontsize=7, color='#444444', ha='right', va='bottom')
+    plt.text(np.pi/3.9, 4.4, 'C', fontsize=7, color='#444444', ha='right', va='bottom')
 
 
 
