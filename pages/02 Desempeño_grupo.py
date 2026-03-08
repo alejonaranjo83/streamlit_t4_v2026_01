@@ -62,24 +62,24 @@ def assign_colors_to_ranges(values):
         (4.99, 5),
         (-3, -1)
     ]
-    # colors = [
-    #     '#ededed',
-    #     '#E76F51',
-    #     '#F4A261',
-    #     '#E9C46A',
-    #     '#2A9D8F',
-    #     '#264653',
-    #     '#AAAAAA',
-    # ]
     colors = [
         '#ededed',
-        '#264653',
-        '#2A9D8F',
-        '#E9C46A',
-        '#F4A261',
         '#E76F51',
+        '#F4A261',
+        '#E9C46A',
+        '#2A9D8F',
+        '#264653',
         '#AAAAAA',
     ]
+    # colors = [
+    #     '#ededed',
+    #     '#264653',
+    #     '#2A9D8F',
+    #     '#E9C46A',
+    #     '#F4A261',
+    #     '#E76F51',
+    #     '#AAAAAA',
+    # ]
 
     color_dict = {}
 
