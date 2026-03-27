@@ -24,7 +24,7 @@ st.write('La letra que lo acompaña, corresponde a la inicial del primer nombre 
 
 # read the data from the corresponding file 
 
-df = pd.read_excel('df_total_e1.xlsx')
+df = pd.read_excel('df_total_e2.xlsx')
 
 # Convert values in the column 'Nivel' to numeric, coercing errors to NaN
 df['Nivel'] = pd.to_numeric(df['Nivel'], errors='coerce') 
