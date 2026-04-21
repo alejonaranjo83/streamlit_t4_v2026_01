@@ -584,7 +584,7 @@ with col[0]: # Contenido de la columna 1
 with col[1]:
     st.write('Selecciona la entrega que quieres ver en detalle')
     
-    entrega = 'E2'
+    entrega = 'E3'
 
     e1, e2, e3, e4, e5, ex, ey, ez = st.columns(8)
     
