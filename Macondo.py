@@ -40,7 +40,7 @@ st.set_page_config(
 st.title("Habitar Macondo 3.0")
 
 
-st.markdown(""" A través de esta aplicación podrás conocer el desempeño de 28 personas, en su itinerario tras las huellas de Melquiades en el primer semestre de 2026-01, usando dos perspectivas: el desempeño individual y el desempeño grupal.""")
+st.markdown(""" A través de esta aplicación podrás conocer el desempeño de 31 personas, en su itinerario tras las huellas de Melquiades en el primer semestre de 2026-01, usando dos perspectivas: el desempeño individual y el desempeño grupal.""")
 
 
 
